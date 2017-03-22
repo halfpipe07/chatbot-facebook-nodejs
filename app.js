@@ -182,6 +182,7 @@ function handleEcho(messageId, appId, metadata) {
 	console.log("Received echo for message %s and app %d with metadata %s", messageId, appId, metadata);
 }
 
+// catch the actions
 function handleApiAiAction(sender, action, responseText, contexts, parameters) {
 	switch (action) {
 		default:
